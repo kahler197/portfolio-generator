@@ -96,4 +96,9 @@ const { projects, about, ...header } = templateData;
   </html>
     `;
   };
+
+  module.exports = {
+    writeFile: writeFile,
+    copyFile: copyFile
+  };
   
